@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/glide.core.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
     <script type="text/javascript" src="./js/glide.min.js" defer> </script> 
     <script type="text/javascript" src="./js/script.js" defer></script>
     
@@ -15,76 +16,143 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="header"><a href="index.html">EXIT</a></div>
+        <div id="info-button" class="header">INFO</div>
         <!-- <div class="header"><a href="index.html">TYPOGRAPHY STUDIO: READING READER</a></div> -->
-        <div class="header"><a href="gallery.html">ENTER GALLERY</a></div>
+        <div class="header"><a href="index.html">EXIT</a></div>
     </div>
+
+    <section id="info">
+        <div class="index-description zoom ">
+            <p class="info">
+                Use the arrow buttons or your arrow keys to navigate through the gallery<br><br>
+                Click once on the image to view it in fullscreen (it may take a moment to load)<br><br>
+                Click anywhere on the screen to exit out of fullscreen mode
+        </p>
+        </div>
+    </section>
+
+    <section id="view-1">
+        <div class="zoom">
+            <img src="./images/Type_RR_Week10.jpg" alt="">
+        </div>
+    </section>
+    <section id="view-2">
+        <div class="zoom">
+            <img src="./images/Type_RR_Week3.jpg" alt="">
+        </div>
+    </section>
+    <section id="view-3">
+        <div class="zoom">
+            <img src="./images/Type_RR_Week1.jpg" alt="">
+        </div>
+    </section>
+    <section id="view-4">
+        <div class="zoom">
+            <img src="./images/Type_RR_Week11.png" alt="">
+        </div>
+    </section>
+    <section id="view-5">
+        <div class="zoom">
+            <img src="./images/Type_RR_Week9.jpg" alt="">
+        </div>
+    </section>
+    <section id="view-6">
+        <div class="zoom">
+            <img src="./images/Type_RR_Week2.jpg" alt="">
+        </div>
+    </section>
+    <section id="view-7">
+        <div class="zoom">
+            <img src="./images/Type_RR_Week8.png" alt="">
+        </div>
+    </section>
+    <section id="view-8">
+        <div class="zoom">
+            <img src="./images/Type_RR_Week5.png" alt="">
+        </div>
+    </section>
+    <section id="view-9">
+        <div class="zoom">
+            <img src="./images/Type_RR_Week7.jpg" alt="">
+        </div>
+    </section>
+    
     <div class="glide container">
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
             <li class="glide__slide art-container">
                 <div class="description">
-                    <h5>"Good design is not merely a question of novelty."</h5>
-                    <h4>Paul Rand, <em>Type Talks</em><br>1989</h4>
+                    <h5>Poster series representing 'The Three Typgraphic Tenets' by Jane Grabhorn</h5>
+                    <h4>Jane Grabhorn<br><em>A Typografic Discourse for The Distaff Side of Printing, a book by ladies</em></h4>
                 </div>
-                <div class="image"><img src="./images/Type_RR_Week1.jpg" alt=""></div>
-            </li>
-            <li class="glide__slide art-container">
-                <div class="description">
-                    <h5>“...makes our designs so practical and clear. One of the many reasons involves the neutrality of Helvetica.”</h5>
-                    <h4>Experimental Jetset, <em>Helveticanism</em></h4>
-                </div>
-                <div class="image"><img src="./images/Type_RR_Week2.jpg" alt=""></div>
-            </li>
-            <li class="glide__slide art-container">
-                <div class="description">
-                    <h5>"People without dyslexia need empathy for those who need concessions to manage the disability. Get the f*** over yourself."</h5>
-                    <h4>Lauren Hudgins, <em>Hating Comic Sans is Ableist</em></h4>
-                </div>
-                <div class="image"><img src="./images/Type_RR_Week3.jpg" alt=""></div>
-            </li>
-            <li class="glide__slide art-container">
-                <div class="description">
-                    <h5>Mock Debate poster on Serif vs. San Serif typefaces based on statements made by Jan Tschichold in Quousque Tandem </h5>
-                    <h4>Jan Tschichold, <em>Quousque Tandem</em></h4>
-                </div>
-                <div class="image"><img src="./images/Type_RR_Week5.jpg" alt=""></div>
-            </li>
-            <li class="glide__slide art-container">
-                <div class="description">
-                    <h5>The Three Typgraphic Tenets</h5>
-                    <h4>Jane Grabhorn, <em>A Typografic Discourse for The Distaff Side of Printing, a book by ladies</em></h4>
-                </div>
-                <div class="image"><img src="./images/Type_RR_Week7.jpg" alt=""></div>
-            </li>
-            <li class="glide__slide art-container">
-                <div class="description">
-                    <h5>“There are those who say that graphic design must never stand out, that the text  should be the focus of attention in a piece of print, and that any influence a designer might have on it is bound to be a bad one.”</h5>
-                    <h4>Piet Schreuders, <em>Lay In—Lay out</em><br>1977</h4>
-                </div>
-                <div class="image"><img src="./images/Type_RR_Week8.png" alt=""></div>
-            </li>
-            <li class="glide__slide art-container">
-                <div class="description">
-                    <h5>Mock posters for social media based on styles described by Jeffrey Keedy in "The Global Style"</h5>
-                    <h4>Jeffrey Keedy, <em>The Global Style</em><br>2013</h4>
-                </div>
-                <div class="image"><img src="./images/Type_RR_Week9.jpg" alt=""></div>
+                <div id="image-9" class="image"><img src="./images/Type_RR_Week7.jpg" alt=""></div>
             </li>
             <li class="glide__slide art-container">
                 <div class="description">
                     <h5>Magazine cover idea based on rebellion and ideas described in "We're Here To Be Bad"</h5>
-                    <h4>Tibor Kalman & Karrie Jacobs, <em>We're Here To Be Bad</em></h4>
+                    <h4>Tibor Kalman & Karrie Jacobs<br><em>We're Here To Be Bad</em></h4>
                 </div>
-                <div class="image"><img src="./images/Type_RR_Week10.jpg" alt=""></div>
+                <div id="image-1" class="image"><img src="./images/Type_RR_Week10.jpg" alt=""></div>
             </li>
-            
+            <li class="glide__slide art-container">
+                <div class="description">
+                    <h5>Representational design asserting Lauren Hudgin's comments surrounding Comic Sans <br><br>"People without dyslexia need empathy for those who need concessions to manage the disability. Get the f*** over yourself."</h5>
+                    <h4>Lauren Hudgins<br><em>Hating Comic Sans is Ableist</em></h4>
+                </div>
+                <div id="image-2" class="image"><img src="./images/Type_RR_Week3.jpg" alt=""></div>
+            </li>
+            <li class="glide__slide art-container">
+                <div class="description">
+                    <h5>Representational packaging design reflecting Paul Rand's statement:<br><br>"Good design is not merely a question of novelty."</h5>
+                    <h4>Paul Rand<br><em>Type Talks</em><br>1989</h4>
+                </div>
+                <div id="image-3" class="image"><img src="./images/Type_RR_Week1.jpg" alt=""></div>
+            </li>
+            <li class="glide__slide art-container">
+                <div class="description">
+                    <h5>Satirical app interface based on the marketing strategies of aesthetics described by Toby Shorin</h5>
+                    <h4>Toby Shorin<br><em>Report: The Diminishing Marginal Value of Aesthetics</em></h4>
+                </div>
+                <div id="image-4" class="image"><img src="./images/Type_RR_Week11.png" alt=""></div>
+            </li>
+            <li class="glide__slide art-container">
+                <div class="description">
+                    <h5>Mock posts for social media based on styles described by Jeffrey Keedy in "The Global Style"</h5>
+                    <h4>Jeffrey Keedy<br><em>The Global Style</em><br>2013</h4>
+                </div>
+                <div id="image-5" class="image"><img src="./images/Type_RR_Week9.jpg" alt=""></div>
+            </li>
+            <li class="glide__slide art-container">
+                <div class="description">
+                    <h5>Newspaper advertisement representing the characteristics of Helvetica described by Experimental Jetset: <br><br> “...makes our designs so practical and clear. One of the many reasons involves the neutrality of Helvetica.”</h5>
+                    <h4>Experimental Jetset<br><em>Helveticanism</em></h4>
+                </div>
+                <div id="image-6" class="image"><img src="./images/Type_RR_Week2.jpg" alt=""></div>
+            </li>
+            <li class="glide__slide art-container">
+                <div class="description">
+                    <h5>Visual representation of Piet Schreuder's statement about text in graphic design:<br><br>“There are those who say that graphic design must never stand out, that the text  should be the focus of attention in a piece of print, and that any influence a designer might have on it is bound to be a bad one.”</h5>
+                    <h4>Piet Schreuders<br><em>Lay In—Lay out</em><br>1977</h4>
+                </div>
+                <div id="image-7" class="image"><img src="./images/Type_RR_Week8.png" alt=""></div>
+            </li>
+            <li class="glide__slide art-container">
+                <div class="description">
+                    <h5>Mock Debate poster on Serif vs. San Serif typefaces based on statements made by Jan Tschichold in Quousque Tandem</h5>
+                    <h4>Jan Tschichold<br><em>Quousque Tandem</em></h4>
+                </div>
+                <div id="image-8" class="image"><img src="./images/Type_RR_Week5.png" alt=""></div>
+            </li>
+            <li class="glide__slide art-container-2">
+                <div id="full_exhibit"><img src="./images/full_exhibit.png" alt=""></div>
+            </li>
           </ul>
         </div>
-        <!-- <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-        </div> -->
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">❮</button>
+            <div class="padding"></div>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">❯</button>
+        </div>
     </div>
     <div class="footerend">
         <div class="footer">© Copyright Shaina Suri 2021</div>
